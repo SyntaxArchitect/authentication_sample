@@ -42,6 +42,8 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
    npm install
    ```
 
+````
+
 3. Configure environment variables in a `.env` file (see [Environment Variables](#environment-variables)).
 
 4. Start the server:
@@ -52,6 +54,8 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
    ```bash
    npm start
    ```
+
+````
 
 The server should start on `http://localhost:5000` by default.
 
