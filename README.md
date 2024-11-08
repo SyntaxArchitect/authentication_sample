@@ -29,19 +29,17 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd authentication-api
    ```
-
-
 
 2. Install dependencies:
 
    ```bash
    npm install
    ```
-
 
 3. Configure environment variables in a `.env` file (see [Environment Variables](#environment-variables)).
 
@@ -54,17 +52,14 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
    npm start
    ```
 
-````
+### The server should start on `http://localhost:5000` by default.
 
-The server should start on `http://localhost:5000` by default.
-
----
 
 ## Environment Variables
 
 Create a `.env` file in the root directory and add the following variables:
 
-```plaintext
+```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_access_token_secret_key
 JWT_REFRESH_SECRET=your_refresh_token_secret_key
@@ -72,8 +67,6 @@ ACCESS_TOKEN_EXPIRES=15m
 REFRESH_TOKEN_EXPIRES=7d
 PORT=5000
 ```
-
----
 
 ## Folder Structure
 
@@ -232,4 +225,7 @@ Use tools like [Postman](https://www.postman.com/) or `curl` for testing.
 - **Security**: Secure your `.env` file.
 
 ---
-````
+
+```
+
+```
