@@ -34,7 +34,7 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
    cd authentication-api
    ```
 
-````
+
 
 2. Install dependencies:
 
@@ -42,7 +42,6 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
    npm install
    ```
 
-````
 
 3. Configure environment variables in a `.env` file (see [Environment Variables](#environment-variables)).
 
