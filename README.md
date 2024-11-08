@@ -52,8 +52,9 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
    npm start
    ```
 
-### The server should start on `http://localhost:5000` by default.
+---
 
+The server should start on `http://localhost:5000` by default.
 
 ## Environment Variables
 
@@ -67,6 +68,8 @@ ACCESS_TOKEN_EXPIRES=15m
 REFRESH_TOKEN_EXPIRES=7d
 PORT=5000
 ```
+
+---
 
 ## Folder Structure
 
@@ -112,6 +115,8 @@ authentication-api/
   }
   ```
 
+---
+
 ### 2. Verify OTP
 
 - **URL**: `/api/auth/verify-otp`
@@ -130,6 +135,8 @@ authentication-api/
   }
   ```
 
+---
+
 ### 3. Resend OTP
 
 - **URL**: `/api/auth/resend-otp`
@@ -146,6 +153,8 @@ authentication-api/
     "message": "OTP resent successfully. Check console for OTP."
   }
   ```
+
+---
 
 ### 4. Login
 
@@ -183,6 +192,8 @@ authentication-api/
     "accessToken": "<new_access_token>"
   }
   ```
+
+---
 
 ### 6. Protected Route
 
@@ -225,7 +236,3 @@ Use tools like [Postman](https://www.postman.com/) or `curl` for testing.
 - **Security**: Secure your `.env` file.
 
 ---
-
-```
-
-```
