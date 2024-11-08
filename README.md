@@ -31,7 +31,7 @@ A Node.js-based authentication API using Express, MongoDB, and JWT for secure us
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SyntaxArchitect/authentication_sample.git
    cd authentication-api
    ```
 
